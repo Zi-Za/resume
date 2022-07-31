@@ -1,7 +1,7 @@
 import { Body, Controller, Get, Post, Put, UseGuards, Delete } from "@nestjs/common";
 import { AuthGuard } from '@nestjs/passport';
 
-import { CreateArticleRequest, CreateArticleResponse } from "./dto/createArticle.dto";
+import { CreateArticleRequest, CreateArticleResponse } from "@app/task/dto/createArticle.dto";
 import { UpdateArticleRequest, UpdateArticleResponse } from './dto/updateArticle.dto';
 import { ArticleService } from "./article.service";
 import { GetArticleRequest, GetArticleResponse, GetArticlesRequest, GetArticlesResponse } from "./dto/getArticle.dto";
