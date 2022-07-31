@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { PassportModule } from '@nestjs/passport';
 
-import { ArticleController } from './article.controller';
+import { ArticleController } from '@app/task/article.controller';
 import { ArticleEntity } from './article.entity';
 import { ArticleService } from './article.service';
 import { JwtStrategy } from '../strategy/jwt.strategy';
