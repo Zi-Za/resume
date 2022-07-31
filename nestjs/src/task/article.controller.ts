@@ -4,7 +4,7 @@ import { AuthGuard } from '@nestjs/passport';
 import { CreateArticleRequest, CreateArticleResponse } from "@app/task/dto/createArticle.dto";
 import { UpdateArticleRequest, UpdateArticleResponse } from '@app/task/dto/updateArticle.dto';
 import { ArticleService } from "@app/task/article.service";
-import { GetArticleRequest, GetArticleResponse, GetArticlesRequest, GetArticlesResponse } from "./dto/getArticle.dto";
+import { GetArticleRequest, GetArticleResponse, GetArticlesRequest, GetArticlesResponse } from "@app/task/dto/getArticle.dto";
 import { DeleteArticleRequest, DeleteArticleResponse } from "@app/task/dto/deleteArticle.dto";
 
 
