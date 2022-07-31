@@ -1,0 +1,6 @@
+
+{
+  "watch": ["src"],
+  "ext": "ts",
+  "exec": "cross-env IS_DEVELOP_MODE=true ts-node -r tsconfig-paths/register src/main.ts"
+}
