@@ -1,4 +1,4 @@
-import { UserEntity } from "../user/user.entity";
+import { UserEntity } from "@app/user/user.entity";
 import { BeforeUpdate, Column, Entity, ManyToOne, OneToMany, PrimaryGeneratedColumn } from "typeorm";
 
 @Entity({name: 'tasks'})
