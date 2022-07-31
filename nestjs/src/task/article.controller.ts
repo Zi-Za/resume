@@ -5,7 +5,7 @@ import { CreateArticleRequest, CreateArticleResponse } from "@app/task/dto/creat
 import { UpdateArticleRequest, UpdateArticleResponse } from '@app/task/dto/updateArticle.dto';
 import { ArticleService } from "@app/task/article.service";
 import { GetArticleRequest, GetArticleResponse, GetArticlesRequest, GetArticlesResponse } from "./dto/getArticle.dto";
-import { DeleteArticleRequest, DeleteArticleResponse } from "./dto/deleteArticle.dto";
+import { DeleteArticleRequest, DeleteArticleResponse } from "@app/task/dto/deleteArticle.dto";
 
 
 @Controller()
